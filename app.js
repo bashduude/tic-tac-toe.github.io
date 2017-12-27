@@ -1,132 +1,95 @@
 $(document).ready(function() {
 
 var value;
-
 var xoro = "O";
 
-var pls;
+value = "";
+//value += "<p class='xando'>" + xoro + "</p>";
 
+/*
 
-
-  $(".field-1").click(function () {
-      pls = xoro;
-    if (xoro != "X") {
-      xoro = "X";
-    } else {
-      xoro = "O";
+$('.gamefield').children().each(function() {
+  $(this).on('mouseup', function() {
+    if ($(this).val() != "X" || $(this).val() != "O" || $(this).val() != "") {
+    switch (xoro) {
+      case "O":
+        xoro = "X";
+      break;
+      case "X":
+        xoro = "O";
+      break;
+      default:
     }
 
-    value = "";
-    value += "<p class='xando'>" + pls + "</p>";
-    $(".field-1").html(value);
+    value += "<p class='xando'>" + xoro + "</p>";
+    $(this).html(xoro);
+  }
   });
+});
 
-  $(".field-2").click(function () {
-      pls = xoro;
-    if (xoro != "X") {
-      xoro = "X";
-    } else {
-      xoro = "O";
+*/
+
+$('.box').mouseup(function() {
+  var oloa;
+
+  /*
+  $(this).on('mouseup', function() {
+    if ($(this).val() != "X" || $(this).val() != "O" || $(this).val() != "") {
+    switch (xoro) {
+      case "O":
+        xoro = "X";
+      break;
+      case "X":
+        xoro = "O";
+      break;
+      default:
     }
 
-    value = "";
-    value += "<p class='xando'>" + pls + "</p>";
-    $(".field-2").html(value);
+    value += "<p class='xando'>" + xoro + "</p>";
+    $(this).html(xoro);
+  }
   });
 
-  $(".field-3").click(function () {
-      pls = xoro;
-    if (xoro != "X") {
-      xoro = "X";
-    } else {
-      xoro = "O";
-    }
+  */
 
-    value = "";
-    value += "<p class='xando'>" + pls + "</p>";
-    $(".field-3").html(value);
-  });
-
-  $(".field-4").click(function () {
-      pls = xoro;
-    if (xoro != "X") {
-      xoro = "X";
-    } else {
-      xoro = "O";
-    }
-
-    value = "";
-    value += "<p class='xando'>" + pls + "</p>";
-    $(".field-4").html(value);
-  });
-
-  $(".field-5").click(function () {
-      pls = xoro;
-    if (xoro != "X") {
-      xoro = "X";
-    } else {
-      xoro = "O";
-    }
-
-    value = "";
-    value += "<p class='xando'>" + pls + "</p>";
-    $(".field-5").html(value);
-  });
-
-  $(".field-6").click(function () {
-      pls = xoro;
-    if (xoro != "X") {
-      xoro = "X";
-    } else {
-      xoro = "O";
-    }
-
-    value = "";
-    value += "<p class='xando'>" + pls + "</p>";
-    $(".field-6").html(value);
-  });
-
-  $(".field-7").click(function () {
-      pls = xoro;
-    if (xoro != "X") {
-      xoro = "X";
-    } else {
-      xoro = "O";
-    }
-
-    value = "";
-    value += "<p class='xando'>" + pls + "</p>";
-    $(".field-7").html(value);
-  });
-
-  $(".field-8").click(function () {
-      pls = xoro;
-    if (xoro != "X") {
-      xoro = "X";
-    } else {
-      xoro = "O";
-    }
-
-    value = "";
-    value += "<p class='xando'>" + pls + "</p>";
-    $(".field-8").html(value);
-  });
+  switch ($(".box").index(this)) {
+    case 0:
+      oloa = "";
+      alert("Ячейка номер: 1");
+      break;
+    case 1:
+      alert("Ячейка номер: 2");
+      break;
+    case 2:
+      alert("Ячейка номер: 3");
+      break;
+    case 3:
+      alert("Ячейка номер: 4");
+      break;
+    case 4:
+      alert("Ячейка номер: 5");
+      break;
+    case 5:
+      alert("Ячейка номер: 6");
+      break;
+    case 6:
+      alert("Ячейка номер: 7");
+      break;
+    case 7:
+      alert("Ячейка номер: 8");
+      break;
+    case 8:
+      alert("Ячейка номер: 9");
+      break;
+  }
 
 
 
-  $(".field-9").click(function () {
-      pls = xoro;
-    if (xoro != "X") {
-      xoro = "X";
-    } else {
-      xoro = "O";
-    }
 
 
-    value = "";
-    value += "<p class='xando'>" + pls + "</p>";
-    $(".field-9").html(value);
-  });
+});
+
+
 
 
 /*

@@ -67,3 +67,13 @@
   top: 115%;
   transform: translate(-50%, -50%);
 }
+
+
+.btn-class button {
+  padding: 5px;
+  font-size: 2em;
+  position: absolute;
+  left: 81%;
+  top: 67.7%;
+  transform: translate(-50%, -50%);
+}

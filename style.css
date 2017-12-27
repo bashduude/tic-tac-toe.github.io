@@ -5,16 +5,35 @@
 }
 
 .center {
-  width: 500px;
+  width: 600px;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
 
-.center h1 {
+.title {
+  font-size: 2.6em;
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
+}
+
+.amount {
+  font-size: 1.5em;
+}
+
+.oval {
+  position: absolute;
+  left: 20%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+}
+
+.xval {
+  position: absolute;
+  left: 20%;
+  top: 75%;
+  transform: translate(-50%, -50%);
 }
 
 .gamefield {
@@ -43,5 +62,8 @@
 }
 
 .winner {
-  margin-top: 20px;
+  position: absolute;
+  left: 50%;
+  top: 115%;
+  transform: translate(-50%, -50%);
 }

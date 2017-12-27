@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center {
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.gamefield {
+  width: 152px;
+  border: 1px solid black;
+  margin: 0 auto;
+
+}
+
+.box {
+  min-width: 50px;
+  min-height: 50px;
+  border: 1px solid black;
+  display: inline-block;
+  float: left;
+}
+
+.clearfix {
+  display: block;
+  content: "";
+  clear: both;
+}

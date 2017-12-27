@@ -31,12 +31,10 @@
   display: inline-block;
   float: left;
   cursor: pointer;
-}
-
-.xando {
   font-size: 2.63em;
   text-align: center;
 }
+
 
 .clearfix {
   display: block;

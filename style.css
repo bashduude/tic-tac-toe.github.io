@@ -32,6 +32,11 @@
   float: left;
 }
 
+.xando {
+  font-size: 2.63em;
+  text-align: center;
+}
+
 .clearfix {
   display: block;
   content: "";

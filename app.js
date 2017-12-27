@@ -15,6 +15,9 @@ $(document).ready(function() {
   // объявляю переменную победителя.
   var winner = "<h1>" + "Победил: ";
 
+  // прячу обводву дива с результатами матча
+  $(".winner").hide();
+
   // устанавливаю эвент на детей "игровой площадки", при клике
   // выполняй функцию.
   $('.gamefield .box').on('click', function() {
@@ -127,6 +130,8 @@ $(document).ready(function() {
   if($(".winner").hasClass("endofgame")) {
     $(".btn-class").html("<button class='clicktorestart'>" + "Заново?" + "</button>");
 
+    // показываю обводву результатов матча.
+    $(".winner").show();
     // если победил или ничья - игра закончилась.
     endofgame = true;
 
@@ -142,6 +147,9 @@ $(document).ready(function() {
 
       // "перезапускаю" конец игры, делаю ее снова "незаконченой".
       endofgame = false;
+
+      // прячу обводву результатов матча.
+      $(".winner").hide();
 
       // очищаю поле от крестиков и ноликов.
       $('.gamefield').children().each(function() {

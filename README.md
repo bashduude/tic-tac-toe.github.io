@@ -4,4 +4,4 @@
 
 [Play The Game](https://bashduude.github.io/tic-tac-toe.github.io/)
 
-![Game Image](Game Image.jpg)
+![Game Image](Game%20Image.jpg)

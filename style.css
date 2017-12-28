@@ -72,7 +72,8 @@ html, body {
   display: inline-block;
   float: left;
   cursor: pointer;
-  font-size: 2.63em;
+  font-size: 2.5em;
+  /*font-size: 2.63em; previous value*/
   text-align: center;
 }
 

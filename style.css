@@ -126,6 +126,10 @@ html, body {
   animation-fill-mode: forwards;
 }
 
+.btn-class button:focus {
+  outline: 0;
+}
+
 @keyframes animated {
   0% {
     box-shadow: 1px 1px 10px rgba(0,0,0,0.6);
